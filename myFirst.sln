@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36705.20 d17.14
+VisualStudioVersion = 17.14.36705.20
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myFirst", "myFirst\myFirst.csproj", "{40C71111-7F13-4794-BA65-C609BA239630}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "accesspacifier1", "accesspacifier1\accesspacifier1.csproj", "{AFA82B14-16A6-4837-A693-3076EB3B474B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "accesspecifier2", "accesspecifier2\accesspecifier2.csproj", "{1A2A7AE2-EC6C-4458-8FF6-DF500597F02A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{40C71111-7F13-4794-BA65-C609BA239630}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40C71111-7F13-4794-BA65-C609BA239630}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40C71111-7F13-4794-BA65-C609BA239630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFA82B14-16A6-4837-A693-3076EB3B474B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA82B14-16A6-4837-A693-3076EB3B474B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA82B14-16A6-4837-A693-3076EB3B474B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA82B14-16A6-4837-A693-3076EB3B474B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A2A7AE2-EC6C-4458-8FF6-DF500597F02A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A2A7AE2-EC6C-4458-8FF6-DF500597F02A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A2A7AE2-EC6C-4458-8FF6-DF500597F02A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A2A7AE2-EC6C-4458-8FF6-DF500597F02A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

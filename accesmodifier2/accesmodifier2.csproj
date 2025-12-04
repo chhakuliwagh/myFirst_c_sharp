@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{40C71111-7F13-4794-BA65-C609BA239630}</ProjectGuid>
+    <ProjectGuid>{F95900F6-705C-42DA-9B3E-42A5EDCDCE00}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>myFirst</RootNamespace>
-    <AssemblyName>myFirst</AssemblyName>
+    <RootNamespace>accesmodifier2</RootNamespace>
+    <AssemblyName>accesmodifier2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>myFirst.non_generic_sortedLict_Ex1</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,44 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="abstraction_ex1.cs" />
-    <Compile Include="abstraction_ex2.cs" />
-    <Compile Include="abstraction_salary.cs" />
-    <Compile Include="abstration_shopping_ex.cs" />
-    <Compile Include="Array.cs" />
-    <Compile Include="Bookroomex.cs" />
-    <Compile Include="constructor_overloading.cs" />
-    <Compile Include="constructor_type.cs" />
-    <Compile Include="copy_constructor.cs" />
-    <Compile Include="datatype.cs" />
-    <Compile Include="EncapsulationEx1.cs" />
-    <Compile Include="EncapsulationEx2.cs" />
-    <Compile Include="EncapsulationEx3.cs" />
-    <Compile Include="function_type.cs" />
-    <Compile Include="if_else_sta.cs" />
-    <Compile Include="interface_ex1.cs" />
-    <Compile Include="interface_ex2.cs" />
-    <Compile Include="Loops.cs" />
-    <Compile Include="Method_Function.cs" />
-    <Compile Include="method_overloading.cs" />
-    <Compile Include="method_overriding.cs" />
-    <Compile Include="multiple_inheritanceex1.cs" />
-    <Compile Include="multiple_inheritanceEx2.cs" />
-    <Compile Include="M_inheritanceEx1.cs" />
-    <Compile Include="non_generic_aaraylistEx2.cs" />
-    <Compile Include="non_generic_arraylistEx1.cs" />
-    <Compile Include="non_generic_hashtable_Ex1.cs" />
-    <Compile Include="non_generic_queue_Ex1.cs" />
-    <Compile Include="non_generic_queue_Ex2.cs" />
-    <Compile Include="non_generic_sortedLict_Ex1.cs" />
-    <Compile Include="non_generic_stack_Ex1.cs" />
-    <Compile Include="non_generic_stack_Ex2.cs" />
-    <Compile Include="non_generic_stack_Ex3.cs" />
-    <Compile Include="operators_user_input.cs" />
-    <Compile Include="operator_overloading.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="single_inheritance.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
